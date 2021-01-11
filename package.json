@@ -1,0 +1,31 @@
+{
+	"name": "ExpressJs-tutorial",
+	"version": "1.0.0",
+	"description": "Server side security",
+	"main": "./server/server.js",
+	"scripts": {
+		"start": "nodemon ./server/server.js --exec babel-node -e js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"express-rate-limit": "^5.2.3",
+		"express-router": "0.0.1",
+		"helmet": "^4.3.1",
+		"mongoose": "^5.11.11"
+	},
+	"devDependencies": {
+		"axios": "^0.21.1",
+		"babel-cli": "^6.26.0",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-stage-0": "^6.24.1",
+		"concurrently": "^5.3.0",
+		"nodemon": "^2.0.7"
+	}
+}
